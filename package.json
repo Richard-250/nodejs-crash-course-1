@@ -5,12 +5,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon ./src/index.mjs",
-    "start": "nodemon .src/index.mjs"
+   "start": "nodemon ./src/index.mjs"
+
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   },
   "devDependencies": {
