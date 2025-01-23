@@ -5,7 +5,7 @@ import productsRouter from './products.mjs';
 const router = Router();
 
 router.use(usersRouter);
-router.use(productsRouter); 
+router.use(productsRouter);   
 
 
 export default router;
