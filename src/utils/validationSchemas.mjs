@@ -17,5 +17,8 @@ username: {
 },
 displayName: {
   notEmpty: true
+},
+password: {
+    notEmpty: true
 }
 }
